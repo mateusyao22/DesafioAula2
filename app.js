@@ -1,5 +1,5 @@
 let listNumerosSorteados = []
-let limiteNumeros = 20000000;
+let limiteNumeros = 90000000;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
@@ -17,7 +17,7 @@ function exibirTextoNaTela(tag, texto) {
 }
 
 function exibirMensagemInicial() {
-    exibirTextoNaTela('h1', 'DESAFIO AULA 2 - v5');
+    exibirTextoNaTela('h1', 'DESAFIO AULA 2 - v6.1');
     exibirTextoNaTela('p', `Escolha um número entre 1 e ${limiteNumeros}`)
 }
 
