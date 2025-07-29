@@ -17,7 +17,7 @@ function exibirTextoNaTela(tag, texto) {
 }
 
 function exibirMensagemInicial() {
-    exibirTextoNaTela('h1', 'DESAFIO AULA 2 - v6.1');
+    exibirTextoNaTela('h1', 'DESAFIO AULA 2 - v6.0');
     exibirTextoNaTela('p', `Escolha um número entre 1 e ${limiteNumeros}`)
 }
 
